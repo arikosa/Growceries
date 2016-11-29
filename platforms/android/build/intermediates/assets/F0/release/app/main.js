@@ -1,0 +1,7 @@
+"use strict";
+var platform_1 = require("nativescript-angular/platform");
+var status_bar_util_1 = require("./utils/status-bar-util");
+var app_module_1 = require("./app.module");
+status_bar_util_1.setStatusBarColors();
+platform_1.platformNativeScriptDynamic().bootstrapModule(app_module_1.AppModule);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLHlCQUE0QywrQkFBK0IsQ0FBQyxDQUFBO0FBQzVFLGdDQUFtQyx5QkFBeUIsQ0FBQyxDQUFBO0FBRTdELDJCQUEwQixjQUFjLENBQUMsQ0FBQTtBQUV6QyxvQ0FBa0IsRUFBRSxDQUFDO0FBQ3JCLHNDQUEyQixFQUFFLENBQUMsZUFBZSxDQUFDLHNCQUFTLENBQUMsQ0FBQyJ9
